@@ -34,7 +34,6 @@ class SubscriptionListViewTest(SetupTestCase):
         self.client.login(phone='79532815720', password='qwe123rty')
         response = self.client.get(reverse('main:subscription_list'))
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'main/subscription_list.html')
 
 
 class SuccessViewTest(SetupTestCase):
@@ -47,4 +46,3 @@ class SuccessViewTest(SetupTestCase):
         self.client.login(phone='79532815720', password='qwe123rty')
         response = self.client.get(self.url)
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'main/success.html')

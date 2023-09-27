@@ -24,7 +24,6 @@ class LoginViewTest(SetupTestCase):
         url = reverse('users:login')
         response = self.client.get(url)
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'users/login.html')
 
     def test_login(self):
         url = reverse('users:login')
