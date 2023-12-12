@@ -1,0 +1,57 @@
+[
+  {
+    "model": "main.subscription",
+    "pk": 2,
+    "fields": {
+      "blog": 4,
+      "user": 1,
+      "status": true,
+      "payment_status": true,
+      "payment_date": "2023-09-22"
+    }
+  },
+  {
+    "model": "main.subscription",
+    "pk": 3,
+    "fields": {
+      "blog": 2,
+      "user": 2,
+      "status": true,
+      "payment_status": true,
+      "payment_date": "2023-09-22"
+    }
+  },
+  {
+    "model": "main.subscription",
+    "pk": 5,
+    "fields": {
+      "blog": 4,
+      "user": 10,
+      "status": true,
+      "payment_status": true,
+      "payment_date": "2023-09-22"
+    }
+  },
+  {
+    "model": "main.subscription",
+    "pk": 6,
+    "fields": {
+      "blog": 2,
+      "user": 13,
+      "status": true,
+      "payment_status": true,
+      "payment_date": "2023-12-12"
+    }
+  },
+  {
+    "model": "main.subscription",
+    "pk": 7,
+    "fields": {
+      "blog": 1,
+      "user": 13,
+      "status": true,
+      "payment_status": true,
+      "payment_date": "2023-12-12"
+    }
+  }
+]

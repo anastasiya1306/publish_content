@@ -1,0 +1,162 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$TjCBCb03c4WyZoa9H8u4pw$EsqzXhkI8j4QskVais45pde10kpOB1FTH34P4Tw3bjI=",
+      "last_login": "2023-12-12T12:36:48.033Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-22T15:48:35.924Z",
+      "username": null,
+      "phone": "79622713510",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$FVvrtPmo9lklcJyMJ6OgoZ$YD2kivKz1N56KK2ZL8cCaBXipMPLvB0jn6+403zxXdU=",
+      "last_login": "2023-09-22T18:21:22.453Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-22T15:50:08.077Z",
+      "username": null,
+      "phone": "79622713501",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$TjBd4hIDsgISoSE3SZ9yCI$d2/T80MPlY1wNjLW6FHaTO0xusOY0GPsubQKIKEaj7I=",
+      "last_login": "2023-12-12T12:36:30.361Z",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "SkyPro",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-09-22T16:12:50.775Z",
+      "username": null,
+      "phone": "79528532568",
+      "avatar": "users/kakaya-polza-ot-chteniya-i-zachem-mnogo-chitat.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$zLyMvgaUzsLBPfD1k0nUYu$kWYXcvKyWqfln6irNqpsZOpsuUyD86/PlUlvKyS85V8=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-22T18:23:13.078Z",
+      "username": null,
+      "phone": "79622713515",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$I1V3DQiRAgVJWhjokGd0ao$8TpifwP+zKKBnjwgvrx4mL9Sly4BIpZxCOBmxHAAYhI=",
+      "last_login": "2023-09-22T18:24:19.389Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-22T18:24:12.808Z",
+      "username": null,
+      "phone": "79622713520",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$ZxmO7vovPthvz0DtYoOCWs$fqXVS9mY6r0zu5XnbMpVDv+NO8yb0DdrhRa9d6r/6WM=",
+      "last_login": "2023-09-22T18:28:33.237Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-22T18:27:42.268Z",
+      "username": null,
+      "phone": "79622713511",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$gDWyolaaeiqckYu9SY1jlr$T/kiJGuvRoehhyCipP70BUeKPa/IkYB03vSpgZ+zaCs=",
+      "last_login": "2023-12-12T12:29:23.164Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-12T12:29:03.506Z",
+      "username": null,
+      "phone": "79622711234",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$CrkLfaWjTupvbSpatHHvjx$QZpqTiG9AyeMe1UpQ9YEmbdSeAVdNHD1z97FCQs9TUg=",
+      "last_login": "2023-12-12T12:30:14.765Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-12T12:30:09.229Z",
+      "username": null,
+      "phone": "79622713108",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
