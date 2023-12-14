@@ -9,11 +9,14 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
+import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+load_dotenv(BASE_DIR / '.env')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -76,9 +79,11 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'db_blog',
-        'USER': 'postgres',
-        'PASSWORD': 'simba2106'
+        'NAME': os.getenv('POSTGRES_DB'),
+        'USER': os.getenv('POSTGRES_USER'),
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
+        'HOST': 'db',
+        'PORT': 5432
     }
 }
 
@@ -132,5 +137,5 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 LOGIN_URL = '/users/'
 
-STRIPE_SECRET_KEY = 'sk_test_51NidrGEw67kyAzsvSbd6R7h1BybYKNIkZTdNO884nUlbpKugvjgkpf6EeYaiMHJSn3ON5bqK3D3jfRgrlumHnxQa00QpnJd9oZ'
-STRIPE_PUBLIC_KEY = 'pk_test_51NidrGEw67kyAzsvMWymcN2UkzkPqCJsXawznWtLBQqvJdIBXozPRHqEzLJBd0TaPIcZCUCdzMRBVulRC62BTmKV00u6VhR43c'
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY')
+STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY')
