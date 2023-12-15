@@ -6,7 +6,8 @@ from blog.models import Blog
 class BlogForm(forms.ModelForm):
     class Meta:
         model = Blog
-        fields = ['title', 'description', 'preview', 'is_publication', 'payment_amount', 'is_paid']
+        fields = ['title', 'description', 'preview',
+                  'is_publication', 'payment_amount', 'is_paid']
         exclude = ('slug', 'count_views', 'user')
 
     def __init__(self, *args, **kwargs):
