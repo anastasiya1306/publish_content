@@ -1,5 +1,4 @@
-from django.contrib.auth.forms import UserChangeForm, UserCreationForm, PasswordResetForm, SetPasswordForm, \
-    UsernameField
+from django.contrib.auth.forms import UserChangeForm, UserCreationForm, PasswordResetForm, SetPasswordForm
 from django import forms
 from django.contrib.auth.tokens import default_token_generator
 from django.utils.encoding import force_bytes
